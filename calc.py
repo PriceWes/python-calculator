@@ -12,12 +12,16 @@ def div(a,b):
 	return a/b
 
 if sign == "+":
-	print(add(a,b))
+	result = add(a,b)
+	print(f"{a} + {b} = {result}")
 elif sign == "-":
-	print(sub(a,b))
+	result = sub(a,b)
+	print(f"{a} - {b} = {result}")
 elif sign == "*":
-	print(mul(a,b))
+	result = mul(a,b)
+	print(f"{a} * {b} = {result}")
 elif sign == "/":
-	print(div(a,b))
+	result = div(a,b)
+	print(f"{a} / {b} = {result}")
 else:
 	print("invalid sign!")
